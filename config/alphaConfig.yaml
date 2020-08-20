@@ -1,0 +1,21 @@
+mysql_risk:
+    host: "rm-bp18497gab09tl39p778.mysql.rds.aliyuncs.com"
+    port: 3213
+    user: "mlalpha"
+    pw: "JwnSEr8nIkhrs7nZ"
+    db: "prod_ml_alpha"
+
+mongo_derivable:
+    host: "dds-bp1c3a1fba4327541827.mongodb.rds.aliyuncs.com:3717,dds-bp1c3a1fba4327542990.mongodb.rds.aliyuncs.com:3717/prod_mcl_risk"
+    user: "mclmlrisk"
+    pw: "Bdw4sXa7Vt9ymJdl"
+    db: "prod_mcl_risk"
+
+model_file_remote_ssh:
+    hostname: "10.111.96.7"
+    port: 22
+    username: "ml"
+    password: "ml123456"
+
+robots: ["https://oapi.dingtalk.com/robot/send?access_token=f16cd6594915d6291c5179cb9c7b5a4cfb5c489e9cdbc85fc12a549297bc82b5"]
+robots_psi: ["https://oapi.dingtalk.com/robot/send?access_token=cef58679587da1c7a2c7212c97dfaf087d30d1c098dcfbba0f19cbc366c388a3"]

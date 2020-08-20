@@ -1,0 +1,26 @@
+
+delay_days: 7
+delay_days_test: 7
+
+label_date: '2018-05-10'
+
+train_start_time: '2018-02-01'
+train_end_time: '2018-06-01'
+
+test_start_time: '2018-02-01'
+test_end_time: '2018-06-01'
+
+thresh_start_time: '2018-06-15'
+thresh_end_time: '2018-07-05'
+
+pass_rate: 0.7
+
+train_data_shuffle: True
+balanced_label: False
+
+model_save_dir: '/home/wenna/omega_model/model/'
+
+mongo_config: {host: 'dds-bp10a41b9b4766141.mongodb.rds.aliyuncs.com:3717,dds-bp10a41b9b4766142.mongodb.rds.aliyuncs.com:3717/prod_jdcl?replicaSet=mgset-2409563', user: 'mxjd', pw: 'Nko5jJ4gfiM3Eq7lRprY', db: 'prod_jdcl'}
+collection: 'derivables'
+#mongo_config: {host: 'dds-bp1cf3b1a74120142.mongodb.rds.aliyuncs.com:3717', user: 'mlmongo', pw: '7lMwJ99d4TeHRP', db: 'jdcl_train'}
+#collection: 'derivatives'
